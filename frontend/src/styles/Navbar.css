@@ -1,0 +1,21 @@
+.navbar{
+    width: 100%;
+    height: 5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 1em;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+.wallet-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    
+}
+#home-title{
+    font-size: 2.5em;
+    color: #00b3ff;
+}

@@ -1,0 +1,122 @@
+.form-container{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    background-color: #070707;
+}
+.input-container{
+    width: 100%;
+    flex: 0.5;
+    display: flex;
+    flex-direction: column;
+}
+.input-container label{
+    font-size: 1.5em;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 0.5em;
+}
+
+.img-container{
+    width: 50%;
+    height: 100%;
+    flex: 0.5;
+    padding: 6em;
+}
+.img-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.input-container textarea{
+    resize: none;
+}
+.form-btn-container{
+    padding-left: 2em;
+    padding-right: 2em;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: absolute;
+    top: 87%;
+}
+.closeForm {
+  align-items: center;
+  background-color: #FFE7E7;
+  background-position: 0 0;
+  border: 1px solid #FEE0E0;
+  border-radius: 11px;
+  box-sizing: border-box;
+  color: #D33A2C;
+  cursor: pointer;
+  display: flex;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 33.4929px;
+  list-style: outside url(https://www.smashingmagazine.com/images/bullet.svg) none;
+  padding: 2px 12px;
+  text-align: left;
+  text-decoration: none;
+  text-shadow: none;
+  text-underline-offset: 1px;
+  transition: border .2s ease-in-out,box-shadow .2s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  word-break: break-word;
+}
+
+.closeForm:active,
+.closeForm:hover,
+.closeForm:focus {
+  outline: 0;
+}
+
+
+.closeForm:active {
+  background-color: #D33A2C;
+  box-shadow: rgba(0, 0, 0, 0.12) 0 1px 3px 0 inset;
+  color: #FFFFFF;
+}
+
+.closeForm:hover {
+  background-color: #FFE3E3;
+  border-color: #FAA4A4;
+}
+
+.closeForm:active:hover,
+.closeForm:focus:hover,
+.closeForm:focus {
+  background-color: #D33A2C;
+  box-shadow: rgba(0, 0, 0, 0.12) 0 1px 3px 0 inset;
+  color: #FFFFFF;
+}
+.submitForm {
+  background-color: #c2fbd7 !important;
+  border-radius: 11px !important;
+  box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px !important;
+  color: green !important;
+  cursor: pointer !important;
+  display: inline-block !important;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif !important;
+  padding: 7px 20px !important;
+  text-align: center !important;
+  text-decoration: none !important;
+  transition: all 250ms !important;
+  border: 0 !important;
+  font-size: 16px !important;
+  user-select: none !important;
+  -webkit-user-select: none !important;
+  touch-action: manipulation !important;
+}
+
+.submitForm:hover {
+  box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px !important;
+  transform: scale(1.05) rotate(-1deg) !important;
+}

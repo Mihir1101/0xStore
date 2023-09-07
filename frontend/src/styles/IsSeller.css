@@ -1,0 +1,56 @@
+.addProduct {
+  appearance: none !important;
+  background-color: transparent !important;
+  border: 2px solid #1A1A1A !important;
+  border-radius: 15px !important;
+  box-sizing: border-box !important;
+  color: #3B3B3B !important;
+  cursor: pointer !important;
+  display: inline-block !important;
+  font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol" !important;
+  font-size: 16px !important;
+  font-weight: 600 !important;
+  line-height: normal !important;
+  margin: 0 !important;
+  min-height: 60px !important;
+  min-width: 0 !important;
+  outline: none !important;
+  padding: 16px 24px !important;
+  text-align: center !important;
+  text-decoration: none !important;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1) !important;
+  user-select: none !important;
+  -webkit-user-select: none !important;
+  touch-action: manipulation !important;
+  will-change: transform !important;
+  color: #fff !important;
+  position:fixed !important;
+  top: 85% !important;
+  left: 84% !important;
+  z-index: 1 !important;
+}
+
+.addProduct:disabled {
+  pointer-events: none !important;
+}
+
+.addProduct:hover {
+  background-color: #1A1A1A !important;
+  box-shadow: rgba(68, 68, 68, 0.25) 0 8px 15px !important;
+  transform: translateY(-2px) !important;
+}
+
+.addProduct:active {
+  box-shadow: none !important;
+  transform: translateY(0) !important;
+}
+
+.addProduct>a{
+    color: #fff !important;
+    text-decoration: none !important;
+}
+.container-addProduct{
+    position: absolute !important;
+    top: 85% !important;
+    left: 85% !important;
+}

@@ -1,0 +1,118 @@
+.close-btn {
+align-items: center;
+background-color: #FFE7E7;
+background-position: 0 0;
+border: 1px solid #FEE0E0;
+border-bottom-left-radius: 11px;
+box-sizing: border-box;
+color: #D33A2C;
+cursor: pointer;
+display: flex;
+font-size: 1rem;
+font-weight: 700;
+line-height: 33.4929px;
+list-style: outside url(https://www.smashingmagazine.com/images/bullet.svg) none;
+padding: 2px 12px;
+text-align: left;
+text-decoration: none;
+text-shadow: none;
+text-underline-offset: 1px;
+transition: border .2s ease-in-out,box-shadow .2s ease-in-out;
+user-select: none;
+-webkit-user-select: none;
+touch-action: manipulation;
+white-space: nowrap;
+word-break: break-word;
+position:fixed;
+top: 0;
+right: 0;
+/* transform: translate(-50%, -50%); */
+z-index: 2;
+}
+
+.close-btn:active,
+.close-btn:hover,
+.close-btn:focus {
+outline: 0;
+}
+
+
+.close-btn:active {
+background-color: #D33A2C;
+box-shadow: rgba(0, 0, 0, 0.12) 0 1px 3px 0 inset;
+color: #FFFFFF;
+}
+
+.close-btn:hover {
+background-color: #FFE3E3;
+border-color: #FAA4A4;
+}
+
+.close-btn:active:hover,
+.close-btn:focus:hover,
+.close-btn:focus {
+background-color: #D33A2C;
+box-shadow: rgba(0, 0, 0, 0.12) 0 1px 3px 0 inset;
+color: #FFFFFF;
+}
+.submitForm {
+background-color: #c2fbd7 !important;
+border-radius: 11px !important;
+box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px !important;
+color: green !important;
+cursor: pointer !important;
+display: inline-block !important;
+font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif !important;
+padding: 7px 20px !important;
+text-align: center !important;
+text-decoration: none !important;
+transition: all 250ms !important;
+border: 0 !important;
+font-size: 16px !important;
+user-select: none !important;
+-webkit-user-select: none !important;
+touch-action: manipulation !important;
+}
+
+.submitForm:hover {
+box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px !important;
+transform: scale(1.05) rotate(-1deg) !important;
+} 
+
+.buyer-details{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index:2;
+  background-color: black;
+  display: flex;
+
+  /* justify-content:center; */
+  align-items:center;
+}
+.product-details{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.buyer-form{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.buyer-form input{
+  width: 50%;
+  height: 5%;
+  margin-bottom: 1em;
+  border-radius: 5px;
+  border: 1px solid black;
+  padding: 0.5em;
+}
